@@ -11,65 +11,41 @@ The task uses four relational tables:
 1. customers
 
 - customer_id
-
 - customer_name
-
 - gender
-
 - age
-
 - home_address
-
 - zip_code
-
 - city
-
 - state
-
 - country
 
 2. orders
 
 - order_id
-
 - customer_id
-
 - payment
-
 - order_date
-
 - delivery_date
 
 3. products
 
 - product_id
-
 - product_type
-
 - product_name
-
 - size
-
 - colour
-
 - price
-
 - quantity
-
 - description
 
 4. sales
 
 - sales_id
-
 - order_id
-
 - product_id
-
 - price_per_unit
-
 - quantity
-
 - total_price
 
 All tables were successfully imported into MySQL and linked using foreign keys.
